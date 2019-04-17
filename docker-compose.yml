@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  app:
+   image: adrianolaselva/app-1-fiap-microservico:0.1.0
+   volumes:
+    - ./:/tmp
+   ports:
+    - 4000:80
