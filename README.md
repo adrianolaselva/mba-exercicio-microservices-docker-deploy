@@ -32,4 +32,10 @@ docker stack deploy --compose-file docker-compose.yml microservice
 ```sh
 docker service scale microservice_app=5
 ```
-s
+
+### Atualizar versão
+
+```sh
+docker service update --image adrianolaselva/app-1-fiap-microservico:0.1.0 mba_app
+```
+
